@@ -2,7 +2,8 @@
 A key-value store is a kind of non-relational database, which stores data as a
 collection of key-value pairs where a key serves as a unique identifier.
 \begin{figure}[h]
-    \includegraphics{images\key_value.png}
+    \centering
+    \includegraphics[width=.5\textwidth]{images/keyvalue.png}
     \caption{Basic concept of Key-Value}
 \end{figure}
 
@@ -11,7 +12,8 @@ interactions with the data because of its simple structure. In contrast this
 type of databases saves resources. Because of their high performance key-value
 stores are popular in real-time applications.
 
-Representatives of key-value stores are:
+Representatives of key-value stores are \cite{dbkeyvalue}:
+
 \begin{itemize}
     \item Redis
     \item Amazon DynamoDB
@@ -19,7 +21,6 @@ Representatives of key-value stores are:
     \item Microsoft Azure Cosmos DB
     \item Hazelcast
 \end{itemize}
-\cite{dbkeyvalue}
 
 \section{Essential Features}
 \subsection{Simplicity}
@@ -45,8 +46,8 @@ implemented by the application itself.
 Due to the simplicity of key-value databases their internal operations are fast.
 Internal design features can optimize performance as well. Data-intensive and
 high-speed applications can be paired with these kind of databases but need to
-calculate the results by themselves\cite{fulmanskikeyvalue}.
-
+calculate the results by themselves \cite{fulmanskikeyvalue}.
+\newpage
 \section{Limitations}
 For key-value stores in general some limitations apply.
 \begin{enumerate}
